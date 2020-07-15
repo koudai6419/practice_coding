@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(9, 31, 31);
+    position: relative;
+    width: 100%;
+    opacity: 0.7;
+    position: fixed;
+    height: 100px;
+}
+.main_logo img{
+    margin: 20px 10px;
+    margin-top: 30px;
+    width: 200px;
+}
+.main_title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    color: white;
+}
+.main_title p{
+    margin-top: 30px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.contain{
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding: 180px 0 200px 0;
+    text-align: center;
+}
+.contain h2{
+    color: rgb(223, 219, 219);
+    font-weight: bold;
+    font-size: 70px;
+    opacity: 0.8;
+}
+.contain p{
+    color: rgb(223, 219, 219);
+    font-size: 25px;
+    opacity: 0.8;
+}
+.contain_p{
+    padding-bottom: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: azure;
+    text-decoration: none;
+}
+.new{
+    background-color: rgb(77, 187, 43);
+}
+.facebook{
+    background-color: slateblue;
+}
+.twitter{
+    background-color: rgb(73, 198, 214);
+}
+
+main{
+    background-color: rgb(240, 228, 228);
+}
+main p{
+    margin-top: 0;
+    text-align: center;
+}
+.marks_contain{
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+}
+.marks_contain h3{
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(170, 162, 153);
+}
+.marks{
+    display: flex;
+}
+.mark{
+    position: relative;
+    width: 25%;
+}
+.mark_logo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.mark img{
+    width: 300px;
+}
+
+.sub_contain{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.message{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(84, 211, 84);
+    padding: 20px;
+    box-shadow: 0 10px rgb(10, 95, 23);
+    border-radius: 8px;
+}
+.message:active{
+    background-color: rgb(77, 187, 43);
+    transform: translateY(10px);
+    box-shadow: none;
+}
+
+
+footer{
+    padding: 30px;
+    border-top:1px solid rgb(202, 198, 196);
+}
