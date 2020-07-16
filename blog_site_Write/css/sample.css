@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(180, 175, 180);
+    /* background-color: rgb(180, 175, 180); */
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 
@@ -26,6 +26,14 @@ header h3{
 }
 .sub-title p{
     margin-left: 30px;
+}
+.sub-title a{
+    color: darkgrey;
+    text-decoration: none;
+}
+.fas{
+    font-size: 30px;
+    margin-left: -50px;
 }
 
 
@@ -70,17 +78,17 @@ main{
     display: flex;
     margin-left: 300px;
     padding-bottom: 100px;
+    padding-top: 50px;
 }
 .btn{
     padding:10px 20px;
-    background-color: rgb(236, 234, 234);
     margin-right: 5px;
     text-decoration: none;
     border: 1px solid rgb(94, 91, 91);
     cursor: pointer;
 }
 .btn:hover{
-    background-color: honeydew;
+    background-color: rgb(164, 167, 164);
     font-weight: bold;
 }
 
@@ -90,7 +98,7 @@ footer{
     width: 1050px;
     margin: auto;
     height: 600px;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 .foot_container{
     display: flex;
@@ -117,6 +125,12 @@ footer{
 }
 .foot_mark{
     display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.foot_mark i{
+    font-size: 20px;
+    color: darkgrey;
 }
 .person_introduce{
     font-size: 17px;
@@ -126,8 +140,37 @@ footer{
     display: flex;
     width: 70%;    
     margin: 0 auto;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
 }
 .foot_subtitle{
     width: 30%;
+    margin-right: 40px;
+}
+.foot_subtitle h3{
+    font-size: 14px;
+}
+.foot_subtitle a{
+    text-decoration-color: silver;
+}
+.foot_subtitle form{
+    margin-top: 100px;
+}
+.post p{
+    font-size: 15px;
+    margin-top: 0;
+}
+.input_text{
+    color: silver;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+
+
+.foot_bottom p{
+    margin-top: 60px;
+    text-align: center;
+    color: slategrey;
+}
+.foot_bottom span{
+    color: black;
 }
