@@ -1,88 +1,101 @@
 body{
-    margin: 0;
+    margin:0;
+    font-family: "Hiragino Kaku Gothic ProN"; sans-serif;
 }
 header{
-    background-color: rgb(9, 31, 31);
+    background-color: rgb(40,50,59, 0.9);
     position: relative;
     width: 100%;
-    opacity: 0.7;
     position: fixed;
-    height: 100px;
+    height: 65px;
+    z-index: 10;
 }
 .main_logo img{
-    margin: 20px 10px;
-    margin-top: 30px;
-    width: 200px;
+    margin: 20px 15px;
+    width: 125px;
 }
 .main_title{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15px;
     display: flex;
     color: white;
+    line-height: 6px;
 }
 .main_title p{
     margin-top: 30px;
-    padding-right: 50px;
-    font-size: 25px;
+    padding-left: 50px;
+    font-size: 16px;
+    
 }
 
 .contain{
     background-image: url(https://prog-8.com/images/html/advanced/top.png);
     background-size: cover;
-    padding: 180px 0 200px 0;
+    padding: 173px 0 108px 0;
     text-align: center;
 }
 .contain h2{
     color: rgb(223, 219, 219);
-    font-weight: bold;
-    font-size: 70px;
+    letter-spacing: 5px;
+    font-size: 45px;
     opacity: 0.8;
+    margin-bottom: 30px;
 }
-.contain p{
-    color: rgb(223, 219, 219);
-    font-size: 25px;
-    opacity: 0.8;
+.contain-p1{
+    color: rgb(223, 219, 219, 0.9);
+    font-size: 16px;
+    padding-bottom: 32px;
 }
-.contain_p{
-    padding-bottom: 30px;
+.contain-p2{
+    padding: 8px 0 12px;
+    color: rgba(255, 255, 255, 0.8);
 }
 .btn{
-    padding: 10px 20px;
+    padding: 8px 25px;
     border-radius: 5px;
     opacity: 0.8;
     color: azure;
     text-decoration: none;
+    text-align: center;
 }
 .new{
-    background-color: rgb(77, 187, 43);
+    background-color:rgb(33,138,112);
 }
 .facebook{
-    background-color: slateblue;
+    background-color: rgb(61,94,148);
+    margin-right: 9px;
 }
 .twitter{
-    background-color: rgb(73, 198, 214);
+    background-color: rgb(81,161,216);
 }
 
+
 main{
-    background-color: rgb(240, 228, 228);
+    background-color: rgb(247,247,247);
 }
 main p{
-    margin-top: 0;
+    /* margin-top: 0; */
     text-align: center;
+    width: 75%;
+    margin: auto;
 }
 .marks_contain{
     text-align: center;
-    margin: auto;
-    padding: 100px;
+    margin: 0 auto;
+    padding: 10px 50px;
 }
 .marks_contain h3{
-    font-size: 40px;
+    font-size: 24px;
     font-weight: normal;
-    color: rgb(170, 162, 153);
+    color: #5f5d60;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 .marks{
     display: flex;
+    margin: auto;
+    width: 95%;
 }
 .mark{
     position: relative;
@@ -90,29 +103,45 @@ main p{
 }
 .mark_logo{
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
 }
-.mark img{
-    width: 300px;
+.mark_img{
+    /* width: 300px; */
+    position: relative;
+}
+.mark_text{
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(179,174,181);
 }
 
+
 .sub_contain{
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: center;
     padding-bottom: 50px;
-    font-size: 30px;
+}
+.sub_contain{
+    font-size: 24px;
+    color:#5f5d60;
+
 }
 .message{
     text-decoration: none;
     display: inline-block;
     color: white;
-    background-color: rgb(84, 211, 84);
-    padding: 20px;
-    box-shadow: 0 10px rgb(10, 95, 23);
-    border-radius: 8px;
+    background-color: rgb(116, 199, 148);
+    padding: 15px 40px;
+    box-shadow: 0 8px rgb(71,147,102);
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 50px;
+}
+.sub_contain_text{
+    font-size: 19px;
 }
 .message:active{
     background-color: rgb(77, 187, 43);
@@ -122,6 +151,13 @@ main p{
 
 
 footer{
-    padding: 30px;
-    border-top:1px solid rgb(202, 198, 196);
+    padding: 20px;
+    border-top:1px solid rgb(224, 221, 219);
+}
+footer img{
+    width: 130px;
+}
+footer p{
+    font-size: 12px;
+    color: #b3aeb5;
 }
