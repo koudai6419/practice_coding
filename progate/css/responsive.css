@@ -1,0 +1,62 @@
+@media(max-width:1000px){
+    
+    .marks{
+        flex-wrap: wrap;
+    }
+    .mark{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:670px){
+    header{
+        display: flex;
+    }
+    .main_title_p{
+        display: none;
+    }
+    .main_title_bar{
+        display: block;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .marks{
+        flex-wrap: wrap;
+    }
+    .mark{
+        width: 100%;
+    }
+    .contain-p3{
+        width: 95%;
+        margin: auto;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 5px;
+    }
+    .p3_new{
+        background-color: rgb(33,138,112);
+    }
+    .p3_facebook{
+        background-color: rgb(61,94,148);
+        margin-bottom: 10px;
+    }
+    .p3_twitter{
+        background-color: rgb(81,161,216);
+    }
+    .contain-p2{
+        padding: 0;
+    }
+
+
+    .message{
+        width: 80%;
+        margin: auto;
+    }
+
+
+    footer{
+        text-align: center;
+    }
+}

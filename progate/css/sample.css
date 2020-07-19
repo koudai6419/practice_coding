@@ -8,7 +8,7 @@ header{
     width: 100%;
     position: fixed;
     height: 65px;
-    z-index: 10;
+    z-index: 2;
 }
 .main_logo img{
     margin: 20px 15px;
@@ -22,11 +22,13 @@ header{
     color: white;
     line-height: 6px;
 }
-.main_title p{
+.main_title_p{
     margin-top: 30px;
     padding-left: 50px;
     font-size: 16px;
-    
+}
+.main_title_bar{
+    display: none;
 }
 
 .contain{
