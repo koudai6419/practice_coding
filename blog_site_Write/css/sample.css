@@ -1,5 +1,6 @@
 body{
-    /* background-color: rgb(180, 175, 180); */
+    background-color: rgb(255,255,255);
+    box-sizing: border-box;
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 
@@ -7,33 +8,48 @@ header{
     width: 1050px;
     background-color: rgb(255,255,255);
     margin: auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 header h1{
     margin-bottom: 0;
+    line-height: 43px;
+    font-size: 36px;
+    margin-left: 20px;
 }
 header h3{
     margin-top: 5px;
-    color: dimgray;
+    color: rgb(117, 117, 117);
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 25px;
 }
 .title{
+    /* display: flex; */
+}
+.mini_title{
     display: flex;
 }
 .sub-title{
-    font-size: 15px;
+    
     display: flex;
     margin: auto;
 }
 .sub-title p{
+    font-size: 17px;
+    line-height: 52px;
     margin-left: 30px;
+    margin-top: -10px;
+    padding-bottom: 40px;
+    /* float: left; */
 }
 .sub-title a{
-    color: darkgrey;
+    color: rgb(61, 50, 50);
     text-decoration: none;
 }
-.fas{
-    font-size: 30px;
-    margin-left: -50px;
+.search_mark{
+    font-size: 20px;
+    line-height: 19px;
+    /* clear: both; */
 }
 
 
