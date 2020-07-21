@@ -48,6 +48,10 @@
     .contain-p2{
         padding: 0;
     }
+    .contain_flex{
+        display: flex;
+        flex-direction: column;
+    }
 
 
     .message{
