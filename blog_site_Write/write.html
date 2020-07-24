@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/sample.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>samplecoding</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -13,11 +14,13 @@
             <div class="mini_title">
                 <h3>書くためのテーマ</h3>
                 <div class="sub-title">
-                    <p><a href="">ホーム</a><i class="fas fa-angle-down"></i></p>
-                    <p><a href="">ページ</a><i class="fas fa-angle-down"></i></p>
-                    <p><a href="">タイポグラフィー</a></p>
-                    <p><a href="">お問い合わせ</a></p>
+                    <p><a class="sub-title1" href="">ホーム</a><i class="fas fa-angle-down"></i></p>
+                    
+                    <p><a class="sub-title_mark" href="">ページ</a><i class="fas fa-angle-down"></i></p>
+                    <p><a class="sub-title_mark" href="">タイポグラフィー</a></p>
+                    <p><a class="sub-title_mark" href="">お問い合わせ</a></p>
                 </div>
+                <p class="sub-title1-1">→カスタマイズ</p>
                 <p class="search_mark"><i class="fas fa-search"></i></p>
             </div>
         </div>    
@@ -33,8 +36,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>書くためのテーマ<br /><span>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">書くためのテーマ</p>
+                        <p class="diary_text"><span>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。</span></p>
                     </div>
                 </div>
             </div>
@@ -43,8 +47,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>画像付きの投稿<br /><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">画像付きの投稿</p>
+                        <p class="diary_text"><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
                     </div>
                 </div>
             </div>
@@ -53,8 +58,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>引用付きの投稿<br /><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">引用付きの投稿</p>
+                        <p class="diary_text"><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
                     </div>
                 </div>
             </div>
@@ -63,8 +69,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>コメント付きの投稿<br /><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">コメント付きの投稿</p>
+                        <p class="diary_text"><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
                     </div>
                 </div>
             </div>
@@ -73,8 +80,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>吾輩は猫である<br /><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">吾輩は猫である</p>
+                        <p class="diary_text"><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
                     </div>
                 </div>
             </div>
@@ -83,8 +91,9 @@
                     <div class="diary_diary">
                         <p>2018年9月1日</p>
                     </div>
-                    <div class="diary_text">
-                        <p>名前はまだ無い。どこで生れたかとんと見当がつかぬ。<br /><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</span></p>
+                    <div class="diary_texts">
+                        <p class="diary_texts_title">名前はまだ無い。どこで生れたかとんと見当がつかぬ。</p>
+                        <p class="diary_text"><span>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</span></p>
                     </div>
                 </div>
             </div>
@@ -145,5 +154,8 @@
             <p>Powered by <span>WordPress</span> | Theme: Write by Themegraphy</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

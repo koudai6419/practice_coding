@@ -44,6 +44,18 @@ header h3{
 .sub-title a{
     color: rgb(61, 50, 50);
     text-decoration: none;
+    position: relative;
+}
+.sub-title1{
+}
+.sub-title1-1{
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(235, 48, 48);
+    padding: 10px 20px;
+    background-color: rosybrown;
+    margin-left: 300px;
+    margin-top: 40px;
 }
 .fa-angle-down{
     margin-left: 10px;
@@ -52,6 +64,7 @@ header h3{
     font-size: 30px;
     margin-top: -3px;
     margin-right: 20px;
+    cursor: pointer;
     /* clear: both; */
 }
 
@@ -60,6 +73,9 @@ main{
     width: 1050px;
     margin: auto;
     background-color: rgb(255,255,255);
+}
+.topic{
+    text-align: center;
 }
 .topic img{
     margin-top: 40px;
@@ -70,9 +86,12 @@ main{
     line-height: 49px;
     color: dimgray;
     margin-bottom: 100px;
+    text-align: start;
 }
 
-
+.diaries{
+    margin-left: 10px;
+}
 .diary_diary{
     width: 300px;
 }
@@ -82,16 +101,21 @@ main{
 .diary_title{
     display: flex;    
 }
-.diary_text{
+.diary_texts{
     font-weight: bold;
     width: 700px;
 }
-.diary_text p{
+.diary_texts_title{
+    margin-top: 5px;
     font-size: 22px;
 }
-.diary_text span{
+.diary_text{
+    margin-bottom: 60px;
+}
+.diary_texts span{
     font-weight: normal;
     font-size: 17px;
+    color: #666666;
 }
 
 
