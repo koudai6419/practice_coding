@@ -2,10 +2,11 @@ body{
     background-color: rgb(255,255,255);
     box-sizing: border-box;
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    margin: 0 30px;
 }
 
 header{
-    width: 1050px;
+    max-width: 1035px;
     background-color: rgb(255,255,255);
     margin: auto;
     margin-top: 60px;
@@ -32,14 +33,18 @@ header h3{
 .sub-title{
     display: flex;
     margin: 0 auto;
-    margin-left: 160px;
 }
 .sub-title_p{
     font-size: 17px;
     line-height: 52px;
-    margin-left: 30px;
-    margin-top: -15px;
+    margin: -15px 13px 0;
+    /* margin-left: 30px; */
+    /* margin-top: -15px; */
     /* float: left; */
+}
+.sub-title-ask{
+    margin-left: 17px;
+    margin-right: 20px;
 }
 .sub-title a{
     color: rgb(61, 50, 50);
@@ -85,14 +90,14 @@ header h3{
 .search_mark{
     font-size: 30px;
     margin-top: -3px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     cursor: pointer;
     /* clear: both; */
 }
 
 
 main{
-    width: 1050px;
+    max-width: 1035px;
     margin: auto;
     background-color: rgb(255,255,255);
 }
@@ -100,7 +105,8 @@ main{
     text-align: center;
 }
 .topic img{
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 45px;
     margin-bottom: 65px;
 }
 .topic p{
@@ -108,6 +114,7 @@ main{
     line-height: 49px;
     color: dimgray;
     margin-bottom: 100px;
+    margin-top: 20px;
     text-align: start;
 }
 
@@ -115,7 +122,7 @@ main{
     margin-left: 10px;
 }
 .diary_diary{
-    width: 300px;
+    width: 335px;
 }
 .diary_diary p{
     font-weight: bold;
