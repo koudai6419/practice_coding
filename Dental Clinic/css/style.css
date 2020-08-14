@@ -1,0 +1,189 @@
+body{
+    border-top: 8px solid rgb(108,198,196);
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    background-color: rgb(246,246,246);
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    width:920px;
+    margin: auto;
+}
+
+.header_contents{
+    display: flex;
+    justify-content: space-between;
+}
+.header_image{
+    margin-top: 50px;
+}
+.tell_p{
+    font-size: 10px;
+    line-height: 18px;
+    text-align: end;
+}
+.tell_number{
+    font-size: 26px;
+    line-height: 46px;
+    margin: 0;
+    margin-top: -4px;
+}
+.tell_time{
+    font-size: 10px;
+    line-height: 18px;
+    border: 1px solid rgb(161, 156, 156);
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    background: linear-gradient(#9AE1DF, #6CC6C4);
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.header_nav li{
+    width: calc(100%/5);
+    text-align: center;
+    border: 1px ridge #6cc6c4;
+}
+.header_li{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.header_li span{
+    font-size: 10px;
+    line-height: 15px;
+}
+
+
+main{
+    width:920px;
+    margin: auto;
+}
+.main_flex{
+    display: flex;
+} 
+.side_menu{
+    width: 260px;
+}
+.side_ul{
+    padding-left: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    border: 1px solid rgb(108,198,196);
+    border-radius: 13px 13px 0 0;
+}
+.side_ul li{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+}
+.side_ul a{
+    color: rgb(82, 81, 81);
+}
+.side_ul a:hover{
+    color: rgb(108,198,196);
+}
+.side_title{
+    background: linear-gradient(#9AE1DF, #6CC6C4);
+    padding-left: 10px;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+}
+.side_first{
+    margin-bottom: 20px;
+}
+.side_second{
+}
+
+.main_content{
+    flex: 1;
+}
+.image{
+    margin-left: 20px;
+}
+.news{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+.news_wrap{
+    width: 94%;
+    margin: auto;
+}
+.news h4{
+    padding: 33px 0 11px;
+    border-bottom: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.news_flex{
+    display: flex;
+}
+.news_day{
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 700;
+    min-width: 140px;
+    margin: 10px 5px 10px 10px;
+}
+.news_text{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-right: 15px;
+}
+
+
+footer{
+    width:920px;
+    margin: auto;
+}
+.footer_nav{
+    display: flex;
+    background: linear-gradient(#9AE1DF, #6CC6C4);
+    margin-top: 22px;
+}
+.footer_nav li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    margin-right: 45px;
+}
+.footer_right{
+    text-align: right;
+    font-size: 13px;
+    line-height: 23px;
+}
+.copyright{
+    border-top: 1px solid rgb(108,198,196);
+}
+.copyright_text{
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+}
