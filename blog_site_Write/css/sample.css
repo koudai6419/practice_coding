@@ -119,7 +119,11 @@ main{
 }
 
 .diaries{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+}
+.diary{
+    margin: 20px 0;
+    padding-top: 4px;
 }
 .diary_diary{
     width: 335px;
@@ -139,7 +143,7 @@ main{
     font-size: 22px;
 }
 .diary_text{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .diary_texts span{
     font-weight: normal;
@@ -150,9 +154,9 @@ main{
 
 .btns{
     display: flex;
-    margin-left: 300px;
+    margin-left: 335px;
     padding-bottom: 100px;
-    padding-top: 50px;
+    margin-top: 35px;
 }
 .btn{
     padding:10px 20px;
@@ -169,7 +173,7 @@ main{
 
 footer{
     /* display: flex; */
-    width: 1050px;
+    max-width: 1035px;
     margin: auto;
     height: 600px;
     /* background-color: gainsboro; */
@@ -181,16 +185,23 @@ footer{
     border-bottom: 1px solid rgb(180, 175, 180);
 }
 .foot_container_sub{
-    width: 250px;
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 75px;
 }
 .foot_main{
     display: flex;
 }
+.foot_main1{
+    margin-left: 20px;
+}
 .foot_main p{
     font-weight: bold;
     font-size: large;
-    background-color: rgb(180, 175, 180);
-    height: 30px;
+    /* background-color: rgb(180, 175, 180); */
+    /* height: 30px; */
+    padding-top: 3px;
 }
 .foot_img{
     width: 100px;
@@ -198,13 +209,19 @@ footer{
     border-radius: 50px;
 }
 .foot_mark{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 100px; */
+    /* margin-top: -5px; */
 }
 .foot_mark i{
     font-size: 20px;
     color: darkgrey;
+    cursor: pointer;
+    padding-right: 15px;
+}
+.foot_mark_span{
+    padding-right: 250px;
 }
 .person_introduce{
     font-size: 17px;
@@ -214,11 +231,12 @@ footer{
     display: flex;
     width: 70%;    
     margin: 0 auto;
+    margin-top: 65px;
     /* background-color: rosybrown; */
 }
 .foot_subtitle{
     width: 30%;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 .foot_subtitle h3{
     font-size: 14px;
@@ -228,6 +246,12 @@ footer{
 }
 .foot_subtitle form{
     margin-top: 100px;
+}
+.foot_subtitle_category{
+    /* margin-right: 0; */
+}
+.post{
+    padding-left: 30px;
 }
 .post p{
     font-size: 15px;
@@ -242,7 +266,7 @@ footer{
 
 .foot_bottom p{
     margin-top: 60px;
-    text-align: center;
+    /* text-align: center; */
     color: slategrey;
 }
 .foot_bottom span{
