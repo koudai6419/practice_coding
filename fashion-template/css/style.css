@@ -5,8 +5,17 @@ body{
 
 header{
     font-family: Bodoni URW;
-    height: 95px;
     background-color: #b2b8b5;
+}
+.header_topic{
+    display: flex;
+    align-items: center;
+    height: 93px;
+}
+.header_topic1, .header_topic2{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 .header_topic ul{
     display: flex;
@@ -27,6 +36,8 @@ header{
 #LAMINA{
     font-size: 36px;
     font-weight: 700;
+    letter-spacing: 0.2em;
+    margin: 0;
     /* position: absolute;
     top: 50%;
     left: 50%;
