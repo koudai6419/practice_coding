@@ -11,27 +11,31 @@ header{
     display: flex;
     align-items: center;
     height: 93px;
+    letter-spacing: 0.2em;
+    font-size: 15px;
 }
 .header_topic1, .header_topic2{
     display: flex;
     flex: 1;
-    justify-content: flex-end;
+    /* justify-content: center; */
 }
-.header_topic ul{
-    display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* margin: 0 auto; */
-    list-style: none;
-    padding-left: 0;
-    line-height: 95px;
-    /* position: relative; */
-    float: left;
-    margin: 0 243px;
+#new_in{
+    margin-left: 243px;
 }
-.header_topic li{
-    letter-spacing: 0.2em;
-    font-size: 15px;
+#collection{
+    margin-left: 40px;
+}
+#lookbook{
+    margin-left: 45px;
+}
+#our_story{
+    margin-left: 90px;
+}
+#news{
+    margin-left: 50px;
+}
+#stores{
+    margin-left: 45px;
 }
 #LAMINA{
     font-size: 36px;
@@ -42,4 +46,11 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
+}
+
+
+.main_img{
+    width: 100%;
+    height: 710px;
+    background-image: url("../fashion-template-assets/img1.jpg");
 }
