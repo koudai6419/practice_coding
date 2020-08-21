@@ -10,9 +10,9 @@ header{
 .header_topic{
     display: flex;
     align-items: center;
-    height: 93px;
+    height: 95px;
     letter-spacing: 0.2em;
-    font-size: 15px;
+    font-size: 14px;
 }
 .header_topic1, .header_topic2{
     display: flex;
@@ -33,6 +33,7 @@ header{
 }
 #news{
     margin-left: 50px;
+    letter-spacing: 0.1em;
 }
 #stores{
     margin-left: 45px;
@@ -40,8 +41,9 @@ header{
 #LAMINA{
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     margin: 0;
+    padding-top: 5px;
     /* position: absolute;
     top: 50%;
     left: 50%;
@@ -49,13 +51,92 @@ header{
 }
 
 
-.main_img{
+.main_container{
     width: 100%;
     height: 710px;
     background-image: url("../fashion-template-assets/img1.jpg");
     position: relative;
 }
-.main_img img{
+.main_img{
     position: absolute;
     margin: 255px 245px;
+}
+.main_text{
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    margin: 400px 470px 0;
+}
+.main_text1{
+    font-family: FOT-マティス ProN;
+    font-size: 24px;
+    line-height: 0.4;
+    letter-spacing: 0.2em;
+    margin: 0;
+    text-align: center;
+    padding-right: 14px;
+}
+.main_text2{
+    font-family: Futura PT;
+    /* font-size: 18px; */
+    line-height: 1;
+    letter-spacing: 0.05em;
+    border-bottom: black 1px solid;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5px;
+    padding-bottom: 6px;
+}
+.mark{
+    display: flex;
+    justify-content: space-between;
+}
+.before{
+}
+.before img{
+    margin-top: 340px;
+    margin-left: 40px;
+}
+.next img{
+    margin-top: 340px;
+    margin-right: 35px;
+    transform: scale(-1, 1);
+}
+.dots{
+    width: 120px;
+    margin: 27px auto;
+    letter-spacing: 2.4em;
+}
+
+
+footer{
+    height: 318px;
+}
+.footer_images{
+    position: relative;
+}
+.footer_image1{
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 2.7%;
+    z-index: 2;
+    height: 270px;
+    width: 700px;
+}
+.footer_image2{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 12.5%;
+    height: 220px;
+}
+
+.footer_images2{
+    float: right;
+    margin-right: 14.5%;
+    margin-top: 3%;
+}
+.footer_images2 p{
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+    width: 60px;
 }
