@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header_container{
+    min-width: 750px;
+    margin: 0 auto;
+}
+.header_title h1{
+    text-align: center;
+    font-family: Quicksand, "Noto Sans Japanese", sans-serif;;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+.header_container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.header_container li{
+    margin: 0 27px;
+}
+.header_title span{
+    color: #9acc1e;
+}
+.header_nav li{
+    font-size: 14px;
+    line-height: 26px;
+    color: #0d0015;
+}
+
+
+main{
+    min-width: 750px;
+}
+.containers{
+    display: flex;
+}
+.main_container{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog{
+    min-height: 250px;
+    width: 40%;
+    box-shadow: 0px 0px 1px grey;
+    margin: 1%;
+    position: relative;
+}
+.blog:hover{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.blog img{
+    width: 100%;
+}
+.JIN_design{
+    position: absolute;
+}
+
+.side_container{
+    width: 30%;
+}
+
+.block1{
+    box-shadow: 0px 0px 1px grey;
+}
+.block1_title{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.block1 img{
+    width: 100%;
+}
+.block1_btn{
+    width: 70%;
+    margin: auto;
+    background-color: crimson;
+    border: white 1px double;
+    border-radius: 30px;
+    text-align: center;
+}
+.block1_btn a{
+    color: white;
+}
