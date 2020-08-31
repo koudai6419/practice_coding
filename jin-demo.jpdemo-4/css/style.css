@@ -45,26 +45,50 @@ main{
 }
 .containers{
     display: flex;
+    margin: 0 8%;
 }
 .main_container{
-    width: 60%;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
+    margin-top: 2%;
 }
 .blog{
     min-height: 250px;
-    width: 40%;
+    width: 46%;
     box-shadow: 0px 0px 1px grey;
-    margin: 1%;
+    margin-right: 3%;
     position: relative;
+    margin-bottom: 2.4%;
+    transition: all 0.5s;
 }
 .blog:hover{
-    margin-top: 2px;
-    margin-bottom: 10px;
+    transform: translate(0px, -5px);
     transition: all 0.5s;
+    box-shadow: 0px 0px 10px grey;
 }
 .blog img{
     width: 100%;
+}
+.blog_text{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: "Noto Sans Japanese", sans-serif;;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0d0015;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+}
+.blog_text2{
+    font-size: 12px;
+    font-family: Quicksand, "Noto Sans Japanese", sans-serif;
+    letter-spacing: 1px;
+    text-align: end;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
 }
 .JIN_design{
     position: absolute;
@@ -74,8 +98,10 @@ main{
     width: 30%;
 }
 
-.block1{
-    box-shadow: 0px 0px 1px grey;
+.block1, .block2, .block3, .block4, .block5, .block6{
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 5%;
+    padding: 10% 0;
 }
 .block1_title{
     background-color: black;
@@ -95,4 +121,68 @@ main{
 }
 .block1_btn a{
     color: white;
+}
+
+.block2{
+    text-align: center;
+}
+.block2 img{
+    border-radius: 50%;
+}
+.block2_btn{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: gray;
+}
+.block2_btn a{
+    color: white;
+}
+.block2_btn2{
+    background-color: #9acc1e;
+}
+.block2_btn2 p{
+    color: white;
+}
+
+.block3_container{
+    width: 80%;
+    margin: auto;
+}
+.block3 img{
+    width: 30%;
+    height: 100%;
+}
+.block3_post{
+    display: flex;
+}
+
+.block4_container, .block5_container, .block6_container{
+    width: 80%;
+    margin: auto;
+}
+.block4_container p, .tag p, .search p{
+    border-bottom: 3px solid black;
+    margin-top: 0;
+}
+select{
+    width: 100%;
+    background-color: rgb(199, 195, 195);
+    border: none;
+    color: gray;
+    height: 30px;
+}
+
+.tag_title{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag_title p{
+    font-size: 5px;
+    margin-right: 1%;
+    background-color: rgb(204, 201, 201);
+}
+
+.submit{
+    width: 100%;
 }
