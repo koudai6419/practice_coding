@@ -52,12 +52,13 @@ main{
     flex: 1;
     flex-wrap: wrap;
     margin-top: 2%;
+    justify-content: space-evenly;
 }
 .blog{
     min-height: 250px;
     width: 46%;
     box-shadow: 0px 0px 1px grey;
-    margin-right: 3%;
+    /* margin-right: 3%; */
     position: relative;
     margin-bottom: 2.4%;
     transition: all 0.5s;
@@ -93,31 +94,82 @@ main{
 .JIN_design{
     position: absolute;
 }
+.page{
+    display: flex;
+    margin: auto;
+}
+.page_number1, .page_number2{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 35px;
+}
+.page_number1{
+    background-color: black;
+    margin-right: 10px;
+}
+.page_number2{
+    background-color: white;
+    box-shadow: 0px 0px 2px grey;
+}
+.page_number1 p, .page_number2 p{
+    text-align: center;
+    transform: translate(1px, -9px);
+}
+.page_number1 p{
+    color: white;
+}
+.page_number2 p{
+    color: gray;
+}
+
+
 
 .side_container{
     width: 30%;
 }
 
-.block1, .block2, .block3, .block4, .block5, .block6{
+.block1, .block2, .block3, .block4, .block5, .block6, .block7{
     box-shadow: 0px 0px 5px grey;
-    margin-bottom: 5%;
+    margin-bottom: 9%;
     padding: 10% 0;
+}
+.block1{
+    padding: 0;
+}
+.block1_container{
+    padding-bottom: 1%;
 }
 .block1_title{
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: 6.8%;
+    padding: 3.5%;
+    letter-spacing: 3px;
+}
+.block1_img_wrap{
+    text-align: center;
+    margin-top: 20px;
 }
 .block1 img{
     width: 100%;
 }
+.block1_text{
+    font-size: 14px;
+    font-family: "Noto Sans Japanese", sans-serif;;
+    color: gray;
+    
+}
 .block1_btn{
-    width: 70%;
-    margin: auto;
+    width: 90%;
+    margin: 20px auto;
     background-color: crimson;
     border: white 1px double;
     border-radius: 30px;
     text-align: center;
+    height: 40px;
+    line-height: 40px;
 }
 .block1_btn a{
     color: white;
@@ -125,30 +177,69 @@ main{
 
 .block2{
     text-align: center;
+    padding-bottom: 0;
+}
+.block2_p1{
+    margin: 0;
+}
+.block2_p2{
+    margin-top: 0;
+    font-size: 12px;
+}
+.block2_p3{
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: start;
+    line-height: 20px;
 }
 .block2 img{
     border-radius: 50%;
+    width: 32%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 3px gray;
 }
 .block2_btn{
-    width: 50%;
-    margin: auto;
-    border-radius: 10px;
+    width: 40%;
+    margin: 25px auto;
+    border-radius: 35px;
     background-color: gray;
+    height: 30px;
+    line-height: 30px;
 }
 .block2_btn a{
     color: white;
+    font-size: 14px;
 }
 .block2_btn2{
     background-color: #9acc1e;
 }
 .block2_btn2 p{
     color: white;
+    padding-top: 15px;
+    font-size: 15px;
+    margin: 0;
+}
+.marks{
+    display: flex;
+    justify-content: center;
+}
+.marks p{
+    font-family: "Font Awesome 5 Brands";
+    background-color: rgba(178, 236, 70, 0.288);
+    width: 35px;
+    height: 20px;
+    margin: 5px 3px;
+}
+.marks a{
+    color: white;
+}
+.fab{
+    transform: translate(0px, -5px);
 }
 
-.block3_container{
-    width: 80%;
-    margin: auto;
-}
+
 .block3 img{
     width: 30%;
     height: 100%;
@@ -157,11 +248,11 @@ main{
     display: flex;
 }
 
-.block4_container, .block5_container, .block6_container{
-    width: 80%;
+.block1_container, .block3_container, .block4_container, .block5_container, .block6_container, .block7_container{
+    width: 90%;
     margin: auto;
 }
-.block4_container p, .tag p, .search p{
+.block3_container_p, .block4_container p, .tag p, .search p, .recommend p{
     border-bottom: 3px solid black;
     margin-top: 0;
 }
@@ -185,4 +276,27 @@ select{
 
 .submit{
     width: 100%;
+    border-radius: 30px;
+    text-align: end;
+    height: 30px;
+}
+.search_mark{
+    /* font-size: 20px; */
+    color: gray;
+}
+
+
+.block7_topic{
+    display: flex;
+}
+.block7_img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.block7 img{
+    width: 100%;
+}
+.block7_topic p{
+    font-size: 14px;
+    line-height: 18px;
 }
