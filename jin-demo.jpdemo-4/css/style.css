@@ -52,13 +52,14 @@ main{
     flex: 1;
     flex-wrap: wrap;
     margin-top: 2%;
-    justify-content: space-evenly;
+    margin-bottom: 10%;
+    /* justify-content: space-evenly; */
 }
 .blog{
     min-height: 250px;
     width: 46%;
     box-shadow: 0px 0px 1px grey;
-    /* margin-right: 3%; */
+    margin-right: 3%;
     position: relative;
     margin-bottom: 2.4%;
     transition: all 0.5s;
@@ -89,14 +90,21 @@ main{
     text-align: end;
     position: absolute;
     right: 15px;
-    bottom: 0;
+    bottom: 0px;
 }
-.JIN_design{
+.jin_design{
     position: absolute;
+    background-color: rgb(22, 180, 22);
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px 13px;
+    margin-left: 3%;
+    color: white;    
 }
 .page{
     display: flex;
-    margin: auto;
+    margin: 4% auto;
+    padding-right: 5%;
 }
 .page_number1, .page_number2{
     width: 35px;
@@ -124,16 +132,26 @@ main{
 }
 
 
-
+/* ---------------------------------------------------------------------------------- */
 .side_container{
     width: 30%;
 }
+/* --------------------------------- */
 
 .block1, .block2, .block3, .block4, .block5, .block6, .block7{
     box-shadow: 0px 0px 5px grey;
     margin-bottom: 9%;
-    padding: 10% 0;
+    padding: 9% 0;
 }
+.block1_container, .block4_container, .block5_container, .block6_container, .block7_container{
+    width: 90%;
+    margin: auto;
+}
+.block3_container_p, .block4_container p, .tag p, .search p, .recommend p{
+    border-bottom: 3px solid black;
+    margin-top: 0;
+}
+/* --------------------------------- */
 .block1{
     padding: 0;
 }
@@ -165,8 +183,9 @@ main{
     width: 90%;
     margin: 20px auto;
     background-color: crimson;
-    border: white 1px double;
+    border: white 3px double;
     border-radius: 30px;
+    border: double 3px white;
     text-align: center;
     height: 40px;
     line-height: 40px;
@@ -174,10 +193,11 @@ main{
 .block1_btn a{
     color: white;
 }
-
+/* --------------------------------- */
 .block2{
     text-align: center;
     padding-bottom: 0;
+    margin-bottom: 7%;
 }
 .block2_p1{
     margin: 0;
@@ -224,6 +244,7 @@ main{
 .marks{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .marks p{
     font-family: "Font Awesome 5 Brands";
@@ -236,25 +257,43 @@ main{
     color: white;
 }
 .fab{
-    transform: translate(0px, -5px);
+    transform: translate(0px, -8px);
+    font-size: 20px;
 }
-
-
-.block3 img{
-    width: 30%;
-    height: 100%;
+/* --------------------------------- */
+.block3{
+    padding-top: 7%;
+}
+.block3_container{
+    width: 85%;
+    margin: auto;
+}
+.block3_container_p{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 .block3_post{
     display: flex;
+    position: relative;
 }
-
-.block1_container, .block3_container, .block4_container, .block5_container, .block6_container, .block7_container{
-    width: 90%;
-    margin: auto;
+.block3_post img{
+    width: 33%;
+    position: absolute;
+    margin-top: 3%;
 }
-.block3_container_p, .block4_container p, .tag p, .search p, .recommend p{
-    border-bottom: 3px solid black;
-    margin-top: 0;
+.block3_post p{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-left: 37%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* --------------------------------- */
+.block4{
+    padding-top: 6%;
+    padding-left: 7px;
+    letter-spacing: 2px;
 }
 select{
     width: 100%;
@@ -263,17 +302,24 @@ select{
     color: gray;
     height: 30px;
 }
-
+/* --------------------------------- */
 .tag_title{
     display: flex;
     flex-wrap: wrap;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .tag_title p{
     font-size: 5px;
     margin-right: 1%;
+    padding-right: 5px;
     background-color: rgb(204, 201, 201);
 }
-
+.tag_title i{
+    padding-right: 5px;
+}
+/* --------------------------------- */
 .submit{
     width: 100%;
     border-radius: 30px;
@@ -285,7 +331,11 @@ select{
     color: gray;
 }
 
-
+/* --------------------------------- */
+.block7{
+    padding-top: 5%;
+    padding-left: 2%;
+}
 .block7_topic{
     display: flex;
 }
@@ -294,9 +344,41 @@ select{
     margin-bottom: auto;
 }
 .block7 img{
-    width: 100%;
+    width: 90%;
 }
 .block7_topic p{
     font-size: 14px;
     line-height: 18px;
+}
+/* --------------------------------- */
+footer{
+    background-color: rgb(94, 87, 87);
+    color: white;
+}
+.footer_contain{
+    margin: -5% 5% 0 5%;
+}
+.container1{
+    width: 40%;
+}
+.container1_1{
+    margin: 10% 1% 30% 10%;
+}
+.container1_1 h2{
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+}
+
+.container2, .container3{
+    margin: 1.5% 5%;
+    width: 15%;
+}
+.container2 p, .container3 p{
+    font-size: 5px;
+}
+
+.container4{
+    width: 40%;
+    margin: 1.5% 0;
 }
